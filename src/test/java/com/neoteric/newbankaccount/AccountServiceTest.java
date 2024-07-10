@@ -6,8 +6,6 @@ import com.neoteric.newbankaccount.service.AccountService;
 import junit.framework.TestCase;
 import org.junit.Assert;
 import org.junit.Test;
-//import #java service method test
-//import sun.jvm.hotspot.debugger.Address;
 import org.junit.jupiter.api.Assertions;
 
 import java.util.UUID;
