@@ -9,6 +9,9 @@ public class BankForm {
     public int Date;
     public long Balance;
 
+
 }
+
+
 
 

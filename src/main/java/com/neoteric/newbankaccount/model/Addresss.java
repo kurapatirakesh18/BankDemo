@@ -10,4 +10,3 @@ package com.neoteric.Address.model;
         public int PinCode;
     }
 
-

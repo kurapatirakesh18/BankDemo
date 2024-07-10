@@ -6,16 +6,14 @@ import com.neoteric.newbankaccount.service.AccountService;
 import junit.framework.TestCase;
 import org.junit.Assert;
 import org.junit.Test;
-//import #java service method test
-//import sun.jvm.hotspot.debugger.Address;
 import org.junit.jupiter.api.Assertions;
 
 import java.util.UUID;
 import com.neoteric.Address.model.Addresss;
 
 public class AccountServiceTest {
-
     @Test
+
     public void getAccountAgeGreaterThaneighteen() {
 
 
@@ -47,6 +45,11 @@ public class AccountServiceTest {
 
         Assertions.assertEquals(5000, customer1.Balance);
         Assertions.assertNotNull(account);
+
+
+
+
+
 
     }
 

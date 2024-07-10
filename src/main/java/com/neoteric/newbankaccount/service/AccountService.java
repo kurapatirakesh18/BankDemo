@@ -17,10 +17,8 @@ public class AccountService {
             account.BranchName="superset";
 
             account.IFSC ="IFSC";
-            account.Balance = 5000l;
+            account.Balance = 5000L;
         }
-
-
 
         return account;
     }
