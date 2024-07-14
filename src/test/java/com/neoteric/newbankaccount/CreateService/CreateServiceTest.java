@@ -56,10 +56,9 @@ public class CreateServiceTest {
 
         rakeshAccount.rateOfIntrest=rateOfIntrest1;
 
-        rakesh.account=rakeshAccount;
-
+        rakesh.Account=rakeshAccount;
         CustomerService customerService = new CustomerService();
-     Otp rakehOtp=  customerService.registration(rakesh);
+        Otp rakehOtp=  customerService.registration(rakesh);
 
         Assertions.assertNotNull(rakehOtp);
         Assertions.assertEquals(expertedOtp,rakehOtp.otpNumber);

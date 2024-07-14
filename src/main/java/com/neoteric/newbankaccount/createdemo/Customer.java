@@ -7,5 +7,5 @@ public class Customer {
     public String addharnumber;
 
 
-
+    public com.neoteric.newbankaccount.createdemo.Account Account;
 }
